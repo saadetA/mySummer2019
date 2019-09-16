@@ -67,7 +67,7 @@ public static void main(String[] args) {
         String middleName = fullName.substring(9,14+1); // School
         System.out.println(middleName);
         
-char ch=
+
 
 
 

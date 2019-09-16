@@ -56,7 +56,6 @@ public static void main(String[] args) {
 	
 		
 		  //DO NOT CHANGE
-	    
 	    String word = scan.next();
 	    //WRITE YOUR CODE HERE
 	    word=word.substring(0);

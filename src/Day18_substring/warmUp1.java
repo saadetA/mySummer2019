@@ -1,8 +1,7 @@
 package Day18_substring;
 import java.util.Scanner;
 public class warmUp1 {
-public static void main(String[] args) {
-	
+
 	/*
     1. Write a program that asks user' first and last names and then prints out the initials of the user
    Ex: Enter your first and last names:
@@ -15,7 +14,7 @@ public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        System.out.println("Enter your first and last names");
         String firstName = input.next();
-        // cmsac Enter
+        // cmsac Enternext dedikten sonra input nextLine demezsek enteriokur durur devam etmez
            input.nextLine();  // takes out the "Enter" from scanner' memory
         String lastName = input.nextLine();
        String initials = firstName.substring(0,1).concat(".")
