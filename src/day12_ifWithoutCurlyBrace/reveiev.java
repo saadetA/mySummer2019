@@ -174,7 +174,7 @@ public class reveiev {
    
        
        // multi-branch if:
-       int grade =80;
+       int grade1 =80;
        if( grade <= 100 && grade >= 0) {
            if(grade >= 90) {
                System.out.println("A");

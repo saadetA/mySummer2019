@@ -1,0 +1,5 @@
+Implementation of array is simple fixed sized array but Implementation of ArrayList is dynamic sized array.
+Array can contain both primitives and objects but ArrayList can contain only object elements
+You can’t use generics along with array but ArrayList allows us to use generics to ensure type safety.
+You can use length variable to calculate length of an array but size() method to calculate size of ArrayList.
+Array use assignment operator to store elements but ArrayList use add() to insert elements.

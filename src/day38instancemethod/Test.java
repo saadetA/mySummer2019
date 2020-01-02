@@ -1,0 +1,42 @@
+package day38instancemethod;
+
+public class Test {
+
+public static void main(String[] args) {
+	Test obj=new Test(100);
+} 
+
+public Test() {
+System.out.println("A");	
+}
+public Test(int a) {
+this(2.5);
+	System.out.println("B");	
+}
+
+public Test(double c) {
+this();
+//this(100)	
+System.out.println("C");	
+}
+
+// methdun returnu yoksa constrctrdir
+//bir class ta en fazla bir default constr olur
+//class object must be created with existing constrctr
+//quiz 2.soru
+//quiz 3 constrc cant call itself.this()ile constrc cagirir
+//diger methdlar constrctr cagiramaz kendi icinde cagrilir
+//quiz4 constrc can not cont itself
+//constractior call (this())first in constrctr yiu can't write anything before it
+//this()must be prority
+//class can exist without any object class is blueprint but object is can not exist without any class
+//before the you create object you must have class 
+//objects:instance of class. we can stored different datas to in object
+//oject creation:ClassName=New ExistingConstractor();defaultsa defaultu int li doubl li booleanli constrctr methodu cgirir
+//we can overloading constrctr
+//just be carefull parameters must be different
+//you can overloading any methods
+
+//constrctr can only one constrctr(this()just one)
+//bir constrctr baskasi tarafindan cagrildiysa tekrar onu cagiramaz
+}

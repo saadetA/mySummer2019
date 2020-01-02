@@ -1,0 +1,37 @@
+
+Abstraction: concetrating on essentials/important things, not worrying about the dtails/im plementation
+                hiding the implementation details
+        car: 
+            start(){ 
+                    put the key
+                    turn the engine on
+                    start driving
+                }
+abstract method: a method without body/implementation
+                    public abstract start();  ==> generic
+                it's a method that's meant to be override ( cannot be final, private), in the regular sub class
+                Only the instance methods can be override and can be abstract
+                
+                abstract method can only be declared in abstract class and interface
+                    ex: 
+                        Pontanic car:   
+                            start(){
+                                call the mechanic
+                                put the key in
+                                start the engine
+                                jump start
+                                driver
+                            }
+                        Tesla ca:
+                            start(){
+                                say "start"
+                                driver
+                            }
+abstract class:  abstract is something not concrete
+                we cannot create object from
+                a class meant to be extended
+                abstract class cannot be final
+                if the sub class is regular class, the sub class MUST override the abstract methods
+                if the sub class is asbtract, no need to override
+        why we cannot create object from abstract class?
+                abstraction is something not concrete, object is concrete

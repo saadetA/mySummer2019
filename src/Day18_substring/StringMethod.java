@@ -9,15 +9,7 @@ public class StringMethod {
    public static void main(String[] args) {
 	
 
-	String A1 ="Batch 12 is a great bacth";
-   //                        
-         int num = A1.indexOf("g");
-         System.out.println(num);
-         
-         int num2 = A1.indexOf("eat"+2); // eat2
-// negative number means the str is not exist in the STring
-         
-         System.out.println(num2);
+	method_example();
    
    
 String B1= "today is tuesday, today we have class in the afternoon";
@@ -60,6 +52,18 @@ lastIndexOf(): returns the last occured character'
    System.out.println( EmailType );
    
 
+}
+
+private static void method_example() {
+	String A1 ="Batch 12 is a great bacth";
+   //                        
+         int num = A1.indexOf("g");
+         System.out.println(num);
+         
+         int num2 = A1.indexOf("eat"+2); // eat2
+// negative number means the str is not exist in the STring
+         
+         System.out.println(num2);
 }   
 
 

@@ -3,26 +3,21 @@ package day11_ReveiewIf;
 public class reveiew {
 public static void main(String[] args) {
 	
-int year = 2000;	
-boolean Leapyear=year% 4== 0;	
-	if(Leapyear) {System.out.println(year+ "is"+ "leapyear");
-	  declare an int variable called Age
-      declare a boolean variable "GoodPerson"
+//int year = 2000;	
+//boolean Leapyear=year% 4== 0;	
+	//if(Leapyear) {System.out.println(year+ "is"+ "leapyear");
+	 // declare an int variable called Age
+      //declare a boolean variable "GoodPerson"
       
-      if goodperson is false:
-              age >= 18 => cigra
-              age >= 21 => Hookah
-              age >= 25 => alcohol
-              
-              age < 18  => milk
-              
-     else 
+     // if( goodperson is false:
+             
+    // else 
      // bad for your health
       
       
       
       
-      */
+      
  int age =30;
  boolean GoodPerson = false;
      
@@ -160,15 +155,15 @@ Jan,  Feb,  Mar,  Apr,  May,  Jun,  Jul,  Aug, Sep , Oct, Nov, Dec
 }
 
 
-}	
+	
 	
 	
 	}		
  
 	
-	}	
+		
 	
-}
+
 	
 	
 	

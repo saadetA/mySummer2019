@@ -3,7 +3,7 @@ package TryToDo;
 
 	import java.util.*;
 
-	public class Main {
+	 class Main {
 	  public static void main(String[] args) {
 	    Scanner scan=new Scanner(System.in); 
 	    int seniorCitizens,nonSeniorCitizens,age;

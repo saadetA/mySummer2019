@@ -120,8 +120,8 @@ Group= FinalGrade == 'A' ? "Early bird" :FinalGrade =='B'?
                              : ' ';
           System.out.println(Finals);       
 
-          int score =80;
-          char Finals =' ';
+          int score1 =80;
+          char Finals1 =' ';
           
           if(score >= 90 && score <=100)
                   Finals ='A';

@@ -3,9 +3,8 @@ package Day20_forloop;
 public class warmup {
 public static void main(String[] args) {
 	 
-    public static void main(String[] args) {
-        /*
-          1. find the sum of all the numbers between 1 to 1000
+   
+          /*1. find the sum of all the numbers between 1 to 1000
           2. find the sum of all even numbers between 1 to1000
           3. find the sum of all odd numbers between 1 to 1000
          */

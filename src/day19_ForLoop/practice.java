@@ -20,7 +20,8 @@ iterator: co-related to the condition.
 */
 
 for(double i = 1; i <= 10 ; i =+5 ) {
-System.out.println("Hello World ");
+	System.out.println("Hello World ");
+	
 }
 System.out.println();
 

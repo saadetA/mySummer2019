@@ -36,11 +36,8 @@ a.concat("school");
 System.out.println(a);
 a=a.concat("  school");
 System.out.println(a);
-String name=a.substring.(0,1),.toUpperCase(0)+.concat" "+b.substring(0,1),toUperCase;
+//String name=a.substring.(0,1),.toUpperCase(0)+.concat" "+b.substring(0,1),toUperCase;
 
-String isim="saadet";//last letter of the saadet
-int c=indexOf(saadet);
-int =c.nextInt();
 
 }
 }

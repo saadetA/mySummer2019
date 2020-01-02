@@ -5,19 +5,19 @@ public class Cities {
 public static void main(String[] args) {
 
 	
-	int city1;
-	int city2;
-	int city3;
+	int ankara;
+	int istanbul;
+	int adana;
 	
-	city1 = 2345673;
+	ankara = 2345673;
 	
-	city2 = 5688944;
+	istanbul = 5688944;
 	
-	city3 = 16189445;
+	adana = 16189445;
 		
-System.out.println( city1 + " " + city2 + " " + city3);	
+System.out.println( ankara + " " + istanbul + " " + adana);	
 	
-System.out.println(city1 + "\n" + city2 + "\n "+ city3);
+System.out.println(ankara + "\n" + istanbul + "\n "+ adana);
 		
 
 
